@@ -15,15 +15,8 @@ main {
   background-color: #eff3f4;
 }
 
-.main__list {
-  box-sizing: border-box;
-}
 
-.main__list:last-child {
-  margin-right: 0;
-}
-
-.main__list > li {
+.main__list li {
   width: 270px;
   float: left;
   margin: 20px 0 20px 20px;
