@@ -10,10 +10,15 @@
   position: relative;
 }
 
-.form {
+.sub__box {
   height: 100px;
   width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .sub__box1 {
@@ -85,8 +90,6 @@
 }
 
 .sub__box9 {
-  height: 100px;
-  width: 100px;
   background-color: #2b69a3;
   top: 10px;
   left: 10px;

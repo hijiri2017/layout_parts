@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 .container {
-  padding: 20px;
+  padding: 30px 10px;
   background-color: #ecf1f2;
 }
 
@@ -26,11 +26,11 @@
 
 .space {
   width: 100%;
-  margin: 0 10px;
+  padding: 0 10px;
 }
 
 .half__space {
   width: 50%;
-  margin: 0 10px;
+  padding: 0 10px;
 }
 /* 回答はここに書いてね */

@@ -44,6 +44,6 @@
 
 .shadow {
   color: #222;
-  box-shadow: 0 1px 6px rgba(0,0,0,.12);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
 }
 /* 回答はここに書いてね */

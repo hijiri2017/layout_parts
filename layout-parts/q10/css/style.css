@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  clear: both;
+}
+
 input, .side__form__txt {
   -webkit-appearance: none;
   border: none;
@@ -39,11 +45,6 @@ input, .side__form__txt {
   font-weight: bold;
 }
 
-.clearfix::before,
-.clearfix::after {
-  content: '';
-  clear: both;
-}
 
 .main {
   float: left;

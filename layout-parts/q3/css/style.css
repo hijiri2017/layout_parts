@@ -1,39 +1,36 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.day__menu {
   table-layout: fixed;
   width: 100%;
 }
 
-table tr th,
-table tr td {
+.day__menu tr th,
+.day__menu tr td {
   padding: 10px 0;
   border: 1px solid #dedede;
   text-align: center;
 }
 
-table tr:nth-child(even) td {
+.day__menu tr:nth-child(even) td {
 background-color: #ecf1f2;
 }
 
-table tr th {
+.day__menu tr th {
   color: #fff;
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
 }
 
-table tr td {
+.day__menu tr td {
   font-size: 16px;
   line-height: 22px;
 }
 
-tbody {
-  border-bottom: none;
-}
 
-tfoot {
+tbody > tr:last-child {
   border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */
